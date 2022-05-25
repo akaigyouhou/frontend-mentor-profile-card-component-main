@@ -1,38 +1,38 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  height: 100vh;
+  width: 100vw;
+  /* opacity: 0.3; */
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  font-size: 18px;
+  font-family: 'KumbhSans';
+  background-color: var(--dark-cyan);
+  background-image: url("bg-pattern-top.svg"), url("bg-pattern-bottom.svg");
+  background-position: -75vw -40vh, 45vw 50vh;
+  /* opacity: 0; */
+  /* background-size: cover; */
+  background-size: 130%, 180%;
+  background-repeat: no-repeat;
 }
 
-.App-link {
-  color: #61dafb;
+@media (min-width: 900px) {
+  .App {
+    /* opacity: 0; */
+    background-size: 68%, 68%;
+    background-position: -20vw -70vh, 48vw 52vh;
+    /* background-size: contain; */
+  }
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+@font-face {
+  font-family: "KumbhSans";
+  font-weight: 400;
+  src: url("./KumbhSans-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "KumbhSans";
+  font-weight: 700;
+  src: url("./KumbhSans-Bold.ttf") format("truetype");
 }

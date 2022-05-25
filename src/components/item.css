@@ -1,0 +1,29 @@
+.item {
+    text-align: center;
+}
+.item:first-child {
+    margin-right: 41px;
+}
+.item:nth-child(2) {
+    margin-right: 49px;
+}
+
+.item .number {
+    font-weight: 700;
+    margin-bottom: 2px;
+    color: var(--very-dark-esaturated-blue);
+}
+.item .title {
+    font-size: 12.5px;
+    text-transform: capitalize;
+    color: var(--dark-gray);
+}
+
+@media (min-width: 900px) {
+    .item:first-child {
+        margin-right: 50px;
+    }
+    .item:nth-child(2) {
+        margin-right: 57px;
+    }
+}
