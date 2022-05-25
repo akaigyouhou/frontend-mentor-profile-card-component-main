@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "./static/css/main.633099b9.css",
+    "main.js": "./static/js/main.e0cdab57.js",
+    "static/media/KumbhSans-Bold.ttf": "./static/media/KumbhSans-Bold.4026f7b98708245e3b30.ttf",
+    "static/media/KumbhSans-Regular.ttf": "./static/media/KumbhSans-Regular.f0b817a565ee7c8fbadb.ttf",
+    "static/media/mobile-design.jpg": "./static/media/mobile-design.843cc0a3bb28f4a79b3e.jpg",
+    "static/media/bg-pattern-card.svg": "./static/media/bg-pattern-card.b61daebd3cb4b885d10f.svg",
+    "index.html": "./index.html",
+    "static/media/bg-pattern-bottom.svg": "./static/media/bg-pattern-bottom.a34eb319c02ad49587c3.svg",
+    "static/media/bg-pattern-top.svg": "./static/media/bg-pattern-top.dae77b1febf9b29fe34e.svg",
+    "main.633099b9.css.map": "./static/css/main.633099b9.css.map",
+    "main.e0cdab57.js.map": "./static/js/main.e0cdab57.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.633099b9.css",
+    "static/js/main.e0cdab57.js"
+  ]
+}
